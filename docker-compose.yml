@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+   sigaa2moodle:
+     image: python3:sigaa2moodle
+     build: .
+     volumes: 
+       - ./arquivos:/usr/src/app
+       - ../share:/share
+     restart: always

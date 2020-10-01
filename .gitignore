@@ -1,0 +1,7 @@
+*.html
+*.csv
+*.log
+*.bak
+RUN
+*.pyc
+arquivos/__pycache__
