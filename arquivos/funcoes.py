@@ -101,6 +101,8 @@ def string2tabela(html,curso,papel,grupo):
                 dados = dados.replace("<em>","")
                 dados = dados.replace("</em>","")
                 if i==1 or i==3:
+                    dados=dados.lstrip()
+                    dados=dados.rstrip()
                     linha.append(dados)
                     if i==3:
                         linha.append(curso)
@@ -111,7 +113,6 @@ def string2tabela(html,curso,papel,grupo):
                     linha.append(papel)
                     linha.append(grupo)'''
                 i = i + 1
-        
             tabela.append(linha)
     
     tabela = ajustar_tabela(tabela)

@@ -8,7 +8,7 @@
 ## Entrada
 
 * HTML dos participantes de um curso do SIGAA
-* configuração do arquivo config.ini (exemplo):
+* configuração do arquivo arquivos/config.ini (exemplo):
 
 ```
     [DEFAULT]
@@ -19,9 +19,9 @@
 ```
 ## Saída
 
-* arquivo CSV no formato para importação no moodle:
+* arquivo CSV no formato para importação no moodle
 ## Como executar
-
+Executar o comando dentro da pasta do projeto
 ```
 docker-compose run --rm sigaa2moodle
 ```
